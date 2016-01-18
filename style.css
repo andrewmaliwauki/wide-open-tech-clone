@@ -425,7 +425,7 @@ header {
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  height: 560px;
+  /*height: 100%;*/
   display: flex;
   font-family: "Lato";
   color: white;
@@ -433,7 +433,7 @@ header {
 
 .location1 {
   background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wilmington.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 50%;
   height: 100%;
@@ -443,7 +443,7 @@ header {
 
 .location2 {
   background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/asheville.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 50%;
   height: 100%;
@@ -457,7 +457,8 @@ header {
   border-radius: 4px;
   height: 180px;
   width: 65%;
-  margin-top: 20%;
+  margin-top: 22%;
+  margin-bottom: 22%;
 }
 
 .wilmington p {
@@ -475,7 +476,8 @@ header {
   border-radius: 4px;
   height: 180px;
   width: 65%;
-  margin-top: 20%;
+  margin-top: 22%;
+  margin-bottom: 22%;
 }
 
 .asheville p {
@@ -490,4 +492,91 @@ header {
 .section6 span {
   color: #bdd537;
   font-size: 32px;
+}
+
+.section7 {
+  background: white;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Lato";
+  text-align: center;
+  height: 400px;
+}
+
+.section7 h2 {
+  color: #6a787c;
+  font-weight: 800;
+  margin: 0 auto;
+  font-size: 25px;
+  padding-top: 90px;
+  letter-spacing: 1.5px;
+}
+
+.section7 p {
+  color: #6a787c;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+
+.footer {
+  background: #6a787c;
+  width: 100%;
+  height: 62px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footerCont {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-family: "Lato";
+  color: white;
+  font-size: 12.5px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  float: left;
+  padding: 23px 0 0 40px;
+  margin: 0;
+}
+
+.footer span {
+  color: #bdd537;
+  font-size: 11px;
+}
+
+.footer a:hover {
+  color: #bdd537;
+}
+
+.footer a {
+  text-decoration: none;
+
+}
+
+.footerNav {
+  float: right;
+  margin-top: 22px;
+  padding-right: 40px;
+}
+
+.footer .footerNav a {
+  color: white;
+  font-family: "Lato";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.footer .footerNav a:hover {
+  color: #bdd537;
 }
